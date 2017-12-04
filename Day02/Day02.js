@@ -9,8 +9,8 @@ function leastAndGreatestChecksum(spreadsheet){
   
 	for (i = 0; i < length; i++){
 		values = row[i].split("	");
-		max = Math.max.apply(Math, values);
-		min = Math.min.apply(Math, values);
+		max = Math.max.apply(null, values);
+		min = Math.min.apply(null, values);
 		result += max - min;
 	}   
  	return result;  
