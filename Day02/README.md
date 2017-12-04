@@ -11,9 +11,12 @@ This is not a very clean solution. It uses three layers deep of nested for loops
 ```javascript
 loop2:
 for (j = 0; j < items.length; j++){
+```
 ...
+```javascript
 break loop2;
 ```
 
+
 ## Additional Notes
-Since you can not have multiline strings in JavaScript without modifying the original input, which I consider cheating, I put the input in a HTML element. This is a simple workaround. I later found that [template_literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals) work too. 
+Since you can not have multiline strings in JavaScript without modifying the original input, which I consider cheating, I put the input in a HTML element. This is a simple workaround. I later found that [template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals) work too. 
