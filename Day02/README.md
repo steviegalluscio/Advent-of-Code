@@ -1,6 +1,6 @@
-# [Day 2](http://adventofcode.com/2017/day/)
+# [Day 2](http://adventofcode.com/2017/day/2)
 ## Part One
-I used regex to find new lines and split the input into rows. I then looped through the rows and split the values by tabs so that I could find the min and max of each row. You can use apply to get the min and max values from not just two values but an array as seen in the code below. 
+I used split with regex to find new lines and split the input into rows. I then looped through the rows and split the values by tabs so that I could find the min and max of each row. You can use apply to get the min and max values from not just two values but an array as seen in the code below. 
 ```javascript
 max = Math.max.apply(null, values);
 min = Math.min.apply(null, values);
