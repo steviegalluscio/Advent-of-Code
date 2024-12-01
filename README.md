@@ -1,2 +1,2 @@
 # Advent-of-Code
- My 2017 Advent of Code solutions
+ My 2017 and 2024 Advent of Code solutions
