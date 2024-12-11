@@ -2,3 +2,6 @@
 input.txt
 input*
 .vscode
+.idea
+*.iml
+/out
